@@ -1,0 +1,661 @@
+/* =======================================
+  Responsive-Section-Start 576px
+==========================================*/
+
+@media only screen and (max-width: 575px) {
+  /* =======================================
+    Navbar-Section-Start
+  ==========================================*/
+  #navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(0, 0, 0, 0.9);
+  }
+  #navbar ul {
+    gap: 5px;
+  }
+  #navbar ul li a::before {
+    left: 0;
+  }
+  /* =======================================
+    Banner-Section-Start
+  ==========================================*/
+  #banner .banner-overlay {
+    padding: 230px 0 170px;
+  }
+
+  #banner .banner-overlay h1 {
+    font-size: 24px;
+  }
+
+  #banner .banner-overlay h3 {
+    font-size: 30px;
+    padding: 15px 0;
+  }
+  #banner .banner-overlay p {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #banner .banner-overlay a {
+    padding: 13px 20px 10px;
+    font-size: 12px;
+  }
+  /* =======================================
+    Services-Section-Start
+  ==========================================*/
+  #services {
+    padding-top: 60px;
+    padding-bottom: 15px;
+  }
+
+  #services .items {
+    padding: 0 15px;
+    padding-bottom: 30px;
+  }
+
+  #services .items i {
+    font-size: 30px;
+  }
+
+  #services .items h3 {
+    font-size: 18px;
+    padding-top: 15px;
+  }
+  #services .items p {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  /* =======================================
+    Ideas-Section-Start
+  ==========================================*/
+  #ideas {
+    padding-top: 0px;
+  }
+  #ideas h3 {
+    font-size: 20px;
+  }
+  #ideas p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  #ideas img {
+    transform: scale(1);
+  }
+
+  #ideas .theme {
+    padding: 30px 0 20px;
+  }
+  #ideas .theme h4 {
+    font-size: 20px;
+  }
+  #ideas .theme h5 {
+    font-size: 15px;
+  }
+  #ideas .theme a {
+    font-size: 12px;
+    padding: 13px 16px 10px;
+  }
+
+  /* =======================================
+    Project-Section-Start
+  ==========================================*/
+  #project {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  #project .project-text h3 {
+    font-size: 20px;
+  }
+  #project .project-text p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  #project .button-group button {
+    font-size: 12px;
+  }
+  #project .project-container {
+    padding: 0 10px 25px;
+  }
+
+  #project .load-more a {
+    padding: 13px 16px 10px;
+    font-size: 12px;
+  }
+
+  /* =======================================
+    Video-Section-Start
+  ==========================================*/
+  #video .video-overlay {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  #video .video-overlay img {
+    transform: scale(0.7);
+  }
+  #video .video-overlay h3 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  #video .video-overlay p {
+    font-size: 14px;
+  }
+  /* =======================================
+    Responsive-Section-Start
+  ==========================================*/
+  #responsive .responsive-text {
+    padding-top: 20px;
+  }
+  #responsive .responsive-text h3 {
+    font-size: 20px;
+  }
+  #responsive .responsive-text p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  #responsive .list {
+    padding-left: 10px;
+  }
+  #responsive .list .list-items {
+    align-items: start;
+    gap: 15px;
+  }
+  #responsive .list .list-items span:nth-child(2) p {
+    font-size: 14px;
+  }
+
+  /* =======================================
+    Counter-Section-Start
+  ==========================================*/
+  #counter {
+    padding-top: 50px;
+  }
+  #counter img {
+    transform: scale(0.8);
+  }
+  #counter h3 {
+    font-size: 30px;
+    padding-top: 10px;
+  }
+  #counter p {
+    font-size: 12px;
+  }
+
+  /* =======================================
+    Post-Section-Start
+  ==========================================*/
+  #post {
+    padding: 70px 0;
+  }
+  #post .post-slider {
+    padding: 0 25px;
+  }
+  #post .post-text h3 {
+    font-size: 20px;
+  }
+
+  #post .post-text p {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #8c8c8c;
+    padding-bottom: 20px;
+  }
+
+  /* =======================================
+    Partners-Section-Start
+  ==========================================*/
+
+  #partners .partners-overlay {
+    padding: 110px 30px;
+  }
+  .backTopButton {
+    height: 40px;
+    width: 40px;
+    font-size: 22px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* =======================================
+    Navbar-Section-Start
+  ==========================================*/
+  #navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(0, 0, 0, 0.9);
+  }
+  #navbar ul {
+    gap: 5px;
+  }
+  #navbar ul li a::before {
+    left: 0;
+  }
+  /* =======================================
+    Banner-Section-Start
+  ==========================================*/
+  #banner .banner-overlay {
+    padding: 230px 0 170px;
+  }
+
+  #banner .banner-overlay h1 {
+    font-size: 24px;
+  }
+
+  #banner .banner-overlay h3 {
+    font-size: 30px;
+    padding: 15px 0;
+  }
+  #banner .banner-overlay p {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #banner .banner-overlay a {
+    padding: 13px 20px 10px;
+    font-size: 12px;
+  }
+  /* =======================================
+    Services-Section-Start
+  ==========================================*/
+  #services {
+    padding-top: 60px;
+    padding-bottom: 15px;
+  }
+
+  #services .items {
+    padding: 0 15px;
+    padding-bottom: 30px;
+  }
+
+  #services .items i {
+    font-size: 30px;
+  }
+
+  #services .items h3 {
+    font-size: 18px;
+    padding-top: 15px;
+  }
+  #services .items p {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  /* =======================================
+    Ideas-Section-Start
+  ==========================================*/
+  #ideas {
+    padding-top: 0px;
+  }
+  #ideas h3 {
+    font-size: 20px;
+  }
+  #ideas p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  #ideas img {
+    transform: scale(1);
+  }
+
+  #ideas .theme {
+    padding: 30px 0 20px;
+  }
+  #ideas .theme h4 {
+    font-size: 20px;
+  }
+  #ideas .theme h5 {
+    font-size: 15px;
+  }
+  #ideas .theme a {
+    font-size: 12px;
+    padding: 13px 16px 10px;
+  }
+
+  /* =======================================
+    Project-Section-Start
+  ==========================================*/
+  #project {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  #project .project-text h3 {
+    font-size: 20px;
+  }
+  #project .project-text p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  #project .button-group button {
+    font-size: 12px;
+  }
+  #project .project-container {
+    padding: 0 10px 25px;
+  }
+
+  #project .load-more a {
+    padding: 13px 16px 10px;
+    font-size: 12px;
+  }
+
+  /* =======================================
+    Video-Section-Start
+  ==========================================*/
+  #video .video-overlay {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  #video .video-overlay img {
+    transform: scale(0.7);
+  }
+  #video .video-overlay h3 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  #video .video-overlay p {
+    font-size: 14px;
+  }
+  /* =======================================
+    Responsive-Section-Start
+  ==========================================*/
+  #responsive .responsive-text {
+    padding-top: 20px;
+  }
+  #responsive .responsive-text h3 {
+    font-size: 20px;
+  }
+  #responsive .responsive-text p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  #responsive .list {
+    padding-left: 10px;
+  }
+  #responsive .list .list-items {
+    align-items: start;
+    gap: 15px;
+  }
+  #responsive .list .list-items span:nth-child(2) p {
+    font-size: 14px;
+  }
+
+  /* =======================================
+    Counter-Section-Start
+  ==========================================*/
+  #counter {
+    padding-top: 50px;
+  }
+  #counter img {
+    transform: scale(0.8);
+  }
+  #counter h3 {
+    font-size: 30px;
+    padding-top: 10px;
+  }
+  #counter p {
+    font-size: 12px;
+  }
+
+  /* =======================================
+    Post-Section-Start
+  ==========================================*/
+  #post {
+    padding: 70px 0;
+  }
+  #post .post-slider {
+    padding: 0 25px;
+  }
+  #post .post-text h3 {
+    font-size: 20px;
+  }
+
+  #post .post-text p {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #8c8c8c;
+    padding-bottom: 20px;
+  }
+
+  /* =======================================
+    Partners-Section-Start
+  ==========================================*/
+
+  #partners .partners-overlay {
+    padding: 110px 30px;
+  }
+
+  .backTopButton {
+    height: 40px;
+    width: 40px;
+    font-size: 22px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* =======================================
+    Navbar-Section-Start
+  ==========================================*/
+  #navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(0, 0, 0, 0.9);
+  }
+  #navbar ul {
+    gap: 5px;
+  }
+  #navbar ul li a::before {
+    left: 0;
+  }
+  /* =======================================
+    Banner-Section-Start
+  ==========================================*/
+  #banner .banner-overlay {
+    padding: 230px 0 170px;
+  }
+
+  #banner .banner-overlay h1 {
+    font-size: 24px;
+  }
+
+  #banner .banner-overlay h3 {
+    font-size: 30px;
+    padding: 15px 0;
+  }
+  #banner .banner-overlay p {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #banner .banner-overlay a {
+    padding: 13px 20px 10px;
+    font-size: 12px;
+  }
+  /* =======================================
+    Services-Section-Start
+  ==========================================*/
+  #services {
+    padding-top: 60px;
+    padding-bottom: 15px;
+  }
+
+  #services .items {
+    padding: 0 15px;
+    padding-bottom: 30px;
+  }
+
+  #services .items i {
+    font-size: 30px;
+  }
+
+  #services .items h3 {
+    font-size: 18px;
+    padding-top: 15px;
+  }
+  #services .items p {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  /* =======================================
+    Ideas-Section-Start
+  ==========================================*/
+  #ideas {
+    padding-top: 0px;
+  }
+  #ideas h3 {
+    font-size: 20px;
+  }
+  #ideas p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  #ideas img {
+    transform: scale(1);
+  }
+
+  #ideas .theme {
+    padding: 30px 0 20px;
+  }
+  #ideas .theme h4 {
+    font-size: 20px;
+  }
+  #ideas .theme h5 {
+    font-size: 15px;
+  }
+  #ideas .theme a {
+    font-size: 12px;
+    padding: 13px 16px 10px;
+  }
+
+  /* =======================================
+    Project-Section-Start
+  ==========================================*/
+  #project {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  #project .project-text h3 {
+    font-size: 20px;
+  }
+  #project .project-text p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  #project .button-group button {
+    font-size: 12px;
+  }
+  #project .project-container {
+    padding: 0 10px 25px;
+  }
+
+  #project .load-more a {
+    padding: 13px 16px 10px;
+    font-size: 12px;
+  }
+
+  /* =======================================
+    Video-Section-Start
+  ==========================================*/
+  #video .video-overlay {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  #video .video-overlay img {
+    transform: scale(0.7);
+  }
+  #video .video-overlay h3 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  #video .video-overlay p {
+    font-size: 14px;
+  }
+  /* =======================================
+    Responsive-Section-Start
+  ==========================================*/
+  #responsive .responsive-text {
+    padding-top: 20px;
+  }
+  #responsive .responsive-text h3 {
+    font-size: 20px;
+  }
+  #responsive .responsive-text p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  #responsive .list {
+    padding-left: 30px;
+  }
+  #responsive .list .list-items {
+    align-items: start;
+    gap: 15px;
+  }
+  #responsive .list .list-items span:nth-child(2) p {
+    font-size: 14px;
+  }
+
+  /* =======================================
+    Counter-Section-Start
+  ==========================================*/
+  #counter {
+    padding-top: 50px;
+  }
+  #counter img {
+    transform: scale(0.8);
+  }
+  #counter h3 {
+    font-size: 30px;
+    padding-top: 10px;
+  }
+  #counter p {
+    font-size: 12px;
+  }
+
+  /* =======================================
+    Post-Section-Start
+  ==========================================*/
+  #post {
+    padding: 70px 0;
+  }
+  #post .post-slider {
+    padding: 0 25px;
+  }
+  #post .post-text h3 {
+    font-size: 20px;
+  }
+
+  #post .post-text p {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #8c8c8c;
+    padding-bottom: 20px;
+  }
+
+  /* =======================================
+    Partners-Section-Start
+  ==========================================*/
+
+  #partners .partners-overlay {
+    padding: 110px 30px;
+  }
+  .backTopButton {
+    height: 50px;
+    width: 50px;
+    font-size: 26px;
+    line-height: 50px;
+  }
+}
